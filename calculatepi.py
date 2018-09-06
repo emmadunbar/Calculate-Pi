@@ -29,5 +29,5 @@ for i in range(0,n):
     term=(-1)**i/(2*i+1)
     sum=sum+term
 pi=4*(sum)
-print("The approximate value of pi is " + str(pi) + "")
+print("The approximate value of pi is {0}".format(round(pi,d)))
 
