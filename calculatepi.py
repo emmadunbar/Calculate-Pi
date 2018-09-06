@@ -1,7 +1,7 @@
 """
 calculatepi.py
 Author: Emma Dunbar
-Credit: none
+Credit: Geoff Dunbar
 Assignment:
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
@@ -22,7 +22,7 @@ Note: remember that the printed value of pi will be an estimate!
 
 """
 import math
-n=int(input("I will estimate the value of pi. How many terms should I use? "))
+n=int(input("I will estimate the value of pi. How many terms should I use in the result? "))
 d=int(input("How many decimal places should I use? "))
 sum=0
 for i in range(0,n):
