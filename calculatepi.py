@@ -24,6 +24,10 @@ Note: remember that the printed value of pi will be an estimate!
 import math
 n=int(input("I will estimate the value of pi. How many terms should I use? "))
 d=int(input("How many decimal places should I use? "))
-pi=(4*(1-(1/3)+(1/5)-(1/7)+(-1^n/(2*n+1))))
+sum=0
+for i in range(0,n):
+    term=(-1)**i/(2*i+1)
+    sum=sum+term
+pi=4*(sum)
 print("The approximate value of pi is " + str(pi) + "")
 
