@@ -22,8 +22,8 @@ Note: remember that the printed value of pi will be an estimate!
 
 """
 import math
-n=int(input("I will estimate the value of pi. How many terms should I use in the result? "))
-d=int(input("How many decimal places should I use? "))
+n=int(input("I will estimate pi. How many terms should I use? "))
+d=int(input("How many decimal places should I use in the result? "))
 sum=0
 for i in range(0,n):
     term=(-1)**i/(2*i+1)
